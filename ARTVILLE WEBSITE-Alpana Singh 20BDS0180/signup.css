@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(artcorner.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, tahoma;
+}
+.photograph{
+    color: brown;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px;
+    float: left;
+    margin: 5px;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+}
+.menu{
+    float: right;
+    padding: 50px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+}
+span{
+    color: brown;
+    font-style: normal;
+}
+.sign-up-form{
+    width: 280px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 5% auto 0;
+    text-align: center;
+}
+.sign-up-form h1{
+    color: #1c8adb;
+    margin-bottom: 10px;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+.sign-up-form input[type="submit"]
+{
+    border: none;
+    outline: none;
+    padding: 10px;
+    height: 40px;
+    width: 100%;
+    margin: 10px 0;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.sign-up-form input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #7FFFD4;
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 10px;
+    width: 80%;
+}
+img{
+    width: 70px;
+    margin-top: -50px;
+}

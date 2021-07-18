@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, tahoma;
+}
+.photograph{
+    color: deeppink;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px;
+    float: left;
+    margin: 5px;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: aquamarine;
+}
+.menu{
+    float: right;
+    padding: 50px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+}
+span{
+    color: deeppink;
+    font-style: italic;
+}
+.background{
+    background-image: url(homepage.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px;
+    margin: 5px;
+}
+p{
+    font-size: 20px;
+}
+.btn .color1{
+    background-color: azure;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 60px;
+    margin: 26px;
+    border-radius: 50px;
+}
+.btn .color2{
+    background-color: azure;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 60px;
+    margin: 26px;
+    border-radius: 50px;
+}
+ul li a:hover{
+    color: fuchsia;
+    transition: 0.6s;
+}
+.btn .color1:hover{
+    background-color: transparent;
+    border: 1px solid greenyellow;
+    transition: 0.9s;
+}
+.btn .color2:hover{
+    background-color: transparent;
+    border: 1px solid greenyellow;
+    transition: 0.9s;
+}
+p{
+    font-size: 1;
+}
+section{
+    padding: 100px;
+}
+.row{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.row .col50{
+    position: relative;
+    width: 48%;
+}
+.imgbx img{
+    width: 80%;
+    height: 106%;
+}
+.row .col50 .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 80%;
+    height: 200%;
+}
